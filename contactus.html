@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contáctanos</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#">Nintenblog</a>
+      <div>
+        <ul>
+          <li>
+            <a href="./index.html">Home</a>
+          </li>
+          <li>
+            <a href="./about.html">About</a>
+          </li>
+          <li>
+            <a href="./contactus.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <h2>Contáctanos</h2>
+      <img
+        src="https://7ff05154-1c09-4e8e-a786-5db2dfb3d737-00-22hat1fjeamhl.worf.replit.dev/img/us.jpg"
+        width="500"
+        class="right mario"
+      />
+      <form action="/submit_contact_form" method="post">
+        <label for="firstName">Nombre:</label>
+        <input type="text" id="firstName" name="firstName" required />
+
+        <br />
+
+        <label for="lastName">Apellido:</label>
+        <input type="text" id="lastName" name="lastName" required />
+
+        <br />
+
+        <label for="message">Mensaje:</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          cols="50"
+          required
+        ></textarea>
+
+        <br />
+
+        <input type="submit" value="Submit" />
+      </form>
+
+      <h2>¿Cómo podemos ayudarte?</h2>
+
+      <p>
+        <a href="https://github.com/Brandon-js/GRUPO5SIUU">
+          ¡Revisa nuestro repositorio aquí!💡
+        </a>
+      </p>
+    </main>
+    <div class="holder"></div>
+    <footer>
+      <p>Autor: Grupo 5</p>
+      <p>Cohorte 10, Fullstack Javascript</p>
+    </footer>
+  </body>
+</html>
