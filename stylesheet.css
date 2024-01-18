@@ -7,8 +7,12 @@ body {
   justify-content: center;
   min-height: 100vh;
   margin: 0 70px;
+  color: #ffffff;
 }
 
+a {
+    color: #ffffff;
+}
 nav {
   grid-column: span 2;
 }
@@ -25,7 +29,7 @@ nav li {
 }
 
 nav a {
-  color: #333;
+  color: #ffffff;
 }
 
 main {
