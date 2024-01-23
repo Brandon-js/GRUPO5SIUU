@@ -72,3 +72,8 @@ body{
 .hide-arrow::before {
     display: none;
 }
+
+.jamon{
+    
+    color:black;
+}
