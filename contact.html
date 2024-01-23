@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contáctanos</title>
     <link rel="stylesheet" href="stylesheet.css"> 
-    <link rel="stylesheet" href="style.css"
-  </head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>>
   <body>
     <nav>
       <a href="#">Nintenblog</a>
@@ -26,36 +26,22 @@
     </nav>
     <main>
       <h2>Contáctanos</h2>
-      <img
-        src="https://7ff05154-1c09-4e8e-a786-5db2dfb3d737-00-22hat1fjeamhl.worf.replit.dev/img/us.jpg"
-        width="400"
-        class="right mario"
-      />
-      <form action="/submit_contact_form" method="post">
-        <label for="firstName">Nombre:</label>
-        <input type="text" id="firstName" name="firstName" required />
-
-        <br />
-
-        <label for="lastName">Apellido:</label>
-        <input type="text" id="lastName" name="lastName" required />
-
-        <br />
-
-        <label for="message">Mensaje:</label>
-        <textarea
-          id="message"
-          name="message"
-          rows="4"
-          cols="50"
-          required
-        ></textarea>
-
-        <br />
-
-        <input type="submit" value="Submit" />
-      </form>
-
+      <div class="text-right">
+        <img src="https://electricneon.com.mx/cdn/shop/products/WhatsAppImage2023-03-06at09.48.56_700x700.jpg?v=1681931196" class="rounded" alt="gengarBkn">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Nombre completo</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Musashi Miyamoto">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Musashi@samurai.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">¡Deja tu mensaje!</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
       <h1>¿Cómo podemos ayudarte?</h1>
 
       <p>
@@ -84,5 +70,6 @@
                 <a href="">luciano@correofalso.com</a>
             </p>    
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
