@@ -48,6 +48,10 @@ body{
 
 }
 
+#foto{
+    width: 300px;
+}
+
 
 .card {
     width: 18rem;
