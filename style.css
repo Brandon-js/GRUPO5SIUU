@@ -37,3 +37,29 @@ body{
     background-color:#343a40!important ;
     width: 100%;
 }
+
+.cardtext{
+    color: black;
+
+}
+
+
+.card {
+    width: 18rem;
+    margin-right: 150px; /* Agregar espacio entre los elementos */
+}
+
+.card::before {
+    content: '➔'; /* Unicode para la flecha hacia la derecha */
+    position: absolute;
+    top: 50%;
+    right: -100px;
+    font-size: 50px;
+    transform: translateY(-50%);
+    color: white;
+
+}
+
+.hide-arrow::before {
+    display: none;
+}
