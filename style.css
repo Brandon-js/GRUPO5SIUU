@@ -1,0 +1,39 @@
+p{ 
+    font-family: 'Josefin Sans', sans-serif;
+    font: weight 200px;
+    color:aliceblue;
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font: weight 400px;
+    color:aliceblue;
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font: weight 400px;
+    color:aliceblue;
+}
+
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font: weight 400px; 
+    color:aliceblue;
+}
+
+body{
+    background: url(img/ninbg.jpg)no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+.white{
+    color:aliceblue
+}
+
+#contenedor{
+    background-color:#343a40!important ;
+    width: 100%;
+}
